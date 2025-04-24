@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo principal -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+
+        <!-- Formulaire principal -->
+        <div class="form-box">
+            <div class="header-pink"></div> <!-- Petit élément rose -->
+
+            <h1>Mon identifiant</h1>
+            <img src="second-logo.png" alt="Second Logo" class="second-logo"> <!-- Logo au-dessus -->
+
+            <!-- Champ d'entrée -->
+            <label for="identifier" class="form-label">Saisissez votre identifiant</label>
+            <input 
+                type="text" 
+                class="input-field" 
+                id="identifier" 
+                placeholder="---- ---- ---- ----" 
+                maxlength="19" 
+                oninput="formatInput(this)">
+            
+            <!-- Bouton -->
+            <button class="btn">Valider</button>
+        </div>
+
+        <!-- Lien "Aide / Opposition / Sécurité" -->
+        <div class="footer-links">
+            <a href="#">Aide</a> / <a href="#">Opposition</a> / <a href="#">Sécurité</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

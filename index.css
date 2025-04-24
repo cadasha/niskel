@@ -1,0 +1,118 @@
+/* Corps général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f3f4fc, #eef4fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Logo principal */
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+/* Formulaire */
+.form-box {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+
+/* Petit élément rose */
+.header-pink {
+    background: #ff006f;
+    height: 5px;
+    width: 50px;
+    border-radius: 3px;
+    margin: 0 auto 15px;
+}
+
+/* Titre et second logo */
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.second-logo {
+    max-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Champ d'entrée */
+.input-field {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #00bfff; /* Bleu ciel */
+    padding: 10px 5px;
+    font-size: 1.5rem;
+    color: #00bfff; /* Texte bleu ciel */
+    text-align: center;
+    letter-spacing: 2px; /* Espacement entre caractères */
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: #bbb;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.input-field:focus {
+    border-bottom: 2px solid #00a0e0; /* Accentuation sur focus */
+}
+
+/* Bouton */
+.btn {
+    background: #ff006f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #e60063;
+}
+
+/* Lien "Aide / Opposition / Sécurité" */
+.footer-links {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.footer-links a {
+    color: #ff006f;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
